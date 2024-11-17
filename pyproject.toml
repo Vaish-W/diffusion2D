@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools","wheel","build"]
+
+[project]
+name = "wanivi_diffusion2d"
+description = "A 2D diffusion equation solver with visualization output"
+version = "0.0.2"
+authors = [
+	{name="Vaishnavi", email="vaishnaviwani671@gmail.com"}
+]
+readme = "README.md"
+keywords = ["diffusion2D", "solver"]
+classifiers = [
+	"Programming Language :: Python :: 3"
+]
+dependencies = [
+	"matplotlib",
+	"numpy"
+]
+requires-python = ">=3.0"
